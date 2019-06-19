@@ -1,0 +1,23 @@
+.header-main {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  height: 60px;
+}
+
+.data {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 3px 0;
+}
+
+.time {
+  font-size: 14px;
+  margin-bottom: 3px;
+
+}

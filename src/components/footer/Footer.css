@@ -1,0 +1,35 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+ 
+  100% {
+    opacity: 1;
+  }
+ }
+ 
+ @keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+ 
+  100% {
+    opacity: 0;
+  }
+ }
+ 
+ .footer p {
+  animation: fadeOut 1s ease-out;
+  animation: fadeIn 1s ease-out;
+ }
+
+.footer{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 25px 5% 5px;
+  justify-content: center;
+  background: #000;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+}
